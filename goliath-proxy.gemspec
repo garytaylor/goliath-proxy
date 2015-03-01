@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Goliath::Proxy::VERSION
   spec.authors       = ["Gary Taylor"]
   spec.email         = ["gary.taylor@hismessages.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Use goliath as a framework for a programmable proxy server}
+  spec.description   = %q{Goliath is a fabulous framework for writing rack based web applications.  With this gem, you can also use it to write web proxies in rack style.}
+  spec.homepage      = "https://github.com/garytaylor/goliath-proxy"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
